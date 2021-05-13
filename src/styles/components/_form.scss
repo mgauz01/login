@@ -1,0 +1,78 @@
+.login-box{
+    font-family: 'Roboto', sans-serif;
+    background-color: azure;
+    max-width: 300px;
+    text-align: center;
+    padding: 0px;
+    align-items: center;
+    border-top: 3px solid darken(#228B22, 2%);
+    font-weight: 0;
+}
+
+.email{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+    padding-bottom: 35px;
+}
+
+.email > h3 {
+    position: absolute;
+    left: 32px;
+    top: 73px
+}
+
+.email > input{
+    border: 1px solid grey;
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.5);
+    margin-bottom: 20px;
+}
+
+.password{
+    display: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+    align-content: space-between;
+}
+
+.password > input{
+    position: relative;
+    border: 1px solid grey;
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.5);
+
+
+}
+.password > h3 {
+    position: absolute;
+    left: 32px;
+    top: 160px;
+}
+
+.remember-me > input{
+    border: 5px solid white; 
+}
+
+.button{
+    background-color: #228B22;
+    border: none;
+    border-bottom: .3rem solid darken(#228B22, 10%);
+    color: white;
+    font-weight: 800;
+    font-family: 'Roboto';
+    padding-top: 10px;
+    width: 200px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button:disabled{
+    opacity: .5;
+}
+

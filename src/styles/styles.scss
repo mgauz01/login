@@ -1,2 +1,8 @@
-@import './base/settings';
-@import './base/base';
+@import './components/formheader';
+@import './components/formfooter';
+@import './components/form';
+
+
+#body {
+    background-color: gray;
+}
