@@ -118,6 +118,11 @@
     cursor: pointer;
 }
 
+.bar{
+    width: 200px;
+    position: relative;
+    right: -95px;
+}
 
 .button:disabled{
     opacity: .5;

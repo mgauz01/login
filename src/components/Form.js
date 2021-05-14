@@ -1,6 +1,8 @@
 import React from 'react'
 import FormHeader from './FormHeader'
 import FormFooter from './FormFooter'
+import PasswordStrengthBar from 'react-password-strength-bar';
+
 class Form extends React.Component{
 
     constructor(props){
@@ -65,6 +67,7 @@ class Form extends React.Component{
                     <div className="password">
                         <h3>Password</h3>
                         <input type="password" onChange={this.onPasswordChange}/>
+                        <PasswordStrengthBar className="bar" password={this.state.password}/>
                     </div>
                     <div className="remember-me">
                         <input className="boxcheck" type="checkbox" onChange={this.onRememberChange}/>
