@@ -3,6 +3,12 @@
 @import './components/form';
 
 
-#body {
+body {
     background-color: gray;
+}
+
+.login_box{
+    position: absolute;
+    left: -300px;
+    top: 40px
 }

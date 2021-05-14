@@ -1,6 +1,6 @@
 .login-box{
     font-family: 'Roboto', sans-serif;
-    background-color: azure;
+    background-color:  #f8f8ff;
     max-width: 300px;
     text-align: center;
     padding: 0px;
@@ -29,6 +29,7 @@
             0 0 16px rgba(0,0,0,0.1);
     background: rgba(255,255,255,0.5);
     margin-bottom: 20px;
+    height: 30px;
 }
 
 .password{
@@ -46,33 +47,55 @@
       inset 0 0 8px  rgba(0,0,0,0.1),
             0 0 16px rgba(0,0,0,0.1);
     background: rgba(255,255,255,0.5);
+    height: 30px;
 
 
 }
 .password > h3 {
     position: absolute;
     left: 32px;
-    top: 160px;
+    top: 172px;
 }
 
-.remember-me > input{
-    border: 5px solid white; 
+.remember-me {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    justify-content: center;
 }
+
+.remember-me > label{
+    padding-left: 9.5px;
+}
+
+.remember-me > input {
+    border: 3px solid #228B22;
+}
+
 
 .button{
     background-color: #228B22;
     border: none;
+    padding-top: 15px;
     border-bottom: .3rem solid darken(#228B22, 10%);
+    border-right: .3rem solid darken(#228B22, 10%);
+    border-left: .12rem solid darken(#228B22, 10%);
+    border-top: .12rem solid darken(#228B22, 10%);
     color: white;
     font-weight: 800;
     font-family: 'Roboto';
     padding-top: 10px;
-    width: 200px;
+    width: 250px;
     font-size: 24px;
     cursor: pointer;
 }
 
+
 .button:disabled{
     opacity: .5;
+}
+
+.button:active{
+    opacity: .6;
 }
 

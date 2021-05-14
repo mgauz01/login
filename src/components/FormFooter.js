@@ -1,17 +1,16 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import {BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom'
+import NotFoundPage from './NotFoundPage'
+import Form from './Form'
 
-class FormFooter extends React.Component{
-
+class Router extends React.Component{
     render(){
         return(
-            <div className="login-footer">
-                <NavLink to="/error">Forgot you password?</NavLink>
-                <NavLink to="/error">Sign Up</NavLink>
-                <NavLink to="/error">Resend email confirmation</NavLink>
-            </div>
+                <div>
+                    <h3>HELLO</h3>
+                </div>
         )
     }
 }
 
-export default FormFooter
+export default Router
