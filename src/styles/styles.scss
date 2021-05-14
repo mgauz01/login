@@ -5,10 +5,6 @@
 
 body {
     background-color: gray;
-}
-
-.login_box{
     position: absolute;
-    left: -300px;
-    top: 40px
+    transform:translateX(175%) translateY(10%);
 }

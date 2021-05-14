@@ -1,0 +1,49 @@
+
+.forgot {
+    text-align: center;
+}
+
+.forgot {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    padding-bottom: px;
+    font-weight: bolder;
+}
+.sentence {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 40px
+}
+.resend {
+    position: relative;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5px;
+    padding-bottom: px;
+    font-weight: bolder;
+    right: -6px;
+    font-size: 13px;
+}
+
+.signup {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+footer:visited { text-decoration: none; color: black; }

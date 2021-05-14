@@ -1,12 +1,13 @@
 .login-box{
     font-family: 'Roboto', sans-serif;
     background-color:  #f8f8ff;
-    max-width: 300px;
+    max-width: 600px;
     text-align: center;
     padding: 0px;
     align-items: center;
     border-top: 3px solid darken(#228B22, 2%);
     font-weight: 0;
+    width: 400px;
 }
 
 .email{
@@ -30,6 +31,7 @@
     background: rgba(255,255,255,0.5);
     margin-bottom: 20px;
     height: 30px;
+    width: 330px;
 }
 
 .password{
@@ -48,6 +50,8 @@
             0 0 16px rgba(0,0,0,0.1);
     background: rgba(255,255,255,0.5);
     height: 30px;
+    border-radius: 0.005px;
+    width: 330px;
 
 
 }
@@ -66,10 +70,34 @@
 
 .remember-me > label{
     padding-left: 9.5px;
+    font-size: 20px;
 }
 
-.remember-me > input {
-    border: 3px solid #228B22;
+.boxcheck{
+    -webkit-appearance: none;
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 1px;
+	display: inline-block;
+	position: relative;
+    height: 4px;
+    width: 4px;
+}
+
+.boxcheck:checked:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: black;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
 }
 
 
@@ -85,7 +113,7 @@
     font-weight: 800;
     font-family: 'Roboto';
     padding-top: 10px;
-    width: 250px;
+    width: 370px;
     font-size: 24px;
     cursor: pointer;
 }

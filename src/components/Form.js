@@ -1,6 +1,6 @@
 import React from 'react'
 import FormHeader from './FormHeader'
-
+import FormFooter from './FormFooter'
 class Form extends React.Component{
 
     constructor(props){
@@ -22,8 +22,8 @@ class Form extends React.Component{
             this.setState(() => ({
                 error: ''
             }))
+            this.props.history.push(`/api/login/${this.state.email}`)
         }
-        this.props.history.push(`/api/login/${this.state.email}`)
 
     }
 
@@ -73,6 +73,7 @@ class Form extends React.Component{
                     <button className="button">Sign In</button>
                 </form>
                 {this.state.error !== '' && <p>{this.state.error}</p>}
+                <FormFooter/>
             </div>
     
         )
