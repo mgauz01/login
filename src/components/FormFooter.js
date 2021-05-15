@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+// Footer element which includes the bottom 3 links
 class FormFooter extends React.Component{
     render(){
         return(
@@ -15,5 +16,4 @@ class FormFooter extends React.Component{
         )
     }
 }
-
 export default FormFooter

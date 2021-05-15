@@ -42,11 +42,13 @@ class Form extends React.Component{
 
     // Function to register the change in email input field
     onEmailChange = (e) => {
-        console.log(e.target.value)
+        // Making sure the email matches the regex
         const email = e.target.value
-        this.setState(() => ({
-            email: email
-        }))
+        if (email.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
+            this.setState(() => ({
+                email: email
+            }))
+        }
     }
     // Function to keep track of the state of the checkbox
     onRememberChange = () => {

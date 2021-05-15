@@ -1,7 +1,7 @@
 import React from 'react'
 
+// Component which encapsolates the Sign In title
 class FormHeader extends React.Component{
-
     render(){
         return(
             <div className="login-header">
